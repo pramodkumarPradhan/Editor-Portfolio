@@ -28,8 +28,8 @@ const Navbar = () => {
       <div className="container mx-auto px-6">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <a href="#" className="text-2xl font-display">
-            SATYA<span className="text-gradient">MOTION</span>
+          <a href="#" className="text-xl font-display">
+            SATYABRATA <span className="text-gradient">MOHANTY</span>
           </a>
 
           {/* Desktop nav */}

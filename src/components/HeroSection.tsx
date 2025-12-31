@@ -15,11 +15,7 @@ const HeroSection = () => {
             <span className="text-sm text-muted-foreground">Professional Video Editor</span>
           </div>
 
-          {/* Main heading */}
-          <h1 className="text-6xl md:text-8xl lg:text-9xl font-display leading-none mb-6 opacity-0 animate-fade-up delay-100">
-            SATYA
-            <span className="block text-gradient">MOTION</span>
-          </h1>
+          {/* Tagline */}
 
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-8 opacity-0 animate-fade-up delay-200 font-light">
