@@ -3,9 +3,27 @@ import { Play } from "lucide-react";
 const HeroSection = () => {
   return (
     <section className="relative min-h-screen flex items-center justify-center hero-gradient film-grain overflow-hidden">
-      {/* Decorative elements */}
-      <div className="absolute top-20 left-10 w-72 h-72 bg-primary/10 rounded-full blur-3xl" />
-      <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/5 rounded-full blur-3xl" />
+      {/* Animated light effects */}
+      <div className="absolute top-20 left-10 w-72 h-72 bg-primary/20 rounded-full blur-3xl animate-pulse" />
+      <div className="absolute bottom-20 right-10 w-96 h-96 bg-primary/15 rounded-full blur-3xl animate-pulse" style={{ animationDelay: '1s' }} />
+      <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[600px] h-[600px] bg-primary/10 rounded-full blur-3xl" />
+      <div className="absolute top-10 right-1/4 w-32 h-32 bg-primary/25 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '0.5s' }} />
+      <div className="absolute bottom-1/3 left-1/4 w-48 h-48 bg-primary/15 rounded-full blur-2xl animate-pulse" style={{ animationDelay: '1.5s' }} />
+      
+      {/* Light rays effect */}
+      <div className="absolute inset-0 overflow-hidden">
+        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-1 h-[50vh] bg-gradient-to-b from-primary/30 to-transparent blur-sm" />
+        <div className="absolute top-0 left-1/3 w-px h-[40vh] bg-gradient-to-b from-primary/20 to-transparent blur-sm" style={{ transform: 'rotate(-15deg)' }} />
+        <div className="absolute top-0 right-1/3 w-px h-[40vh] bg-gradient-to-b from-primary/20 to-transparent blur-sm" style={{ transform: 'rotate(15deg)' }} />
+      </div>
+      
+      {/* Floating particles */}
+      <div className="absolute inset-0 overflow-hidden pointer-events-none">
+        <div className="absolute top-1/4 left-1/4 w-2 h-2 bg-primary/40 rounded-full animate-bounce" style={{ animationDuration: '3s' }} />
+        <div className="absolute top-1/3 right-1/4 w-1 h-1 bg-primary/50 rounded-full animate-bounce" style={{ animationDuration: '2.5s', animationDelay: '0.5s' }} />
+        <div className="absolute bottom-1/4 left-1/3 w-1.5 h-1.5 bg-primary/30 rounded-full animate-bounce" style={{ animationDuration: '4s', animationDelay: '1s' }} />
+        <div className="absolute top-2/3 right-1/3 w-1 h-1 bg-primary/40 rounded-full animate-bounce" style={{ animationDuration: '3.5s', animationDelay: '0.7s' }} />
+      </div>
       
       <div className="container mx-auto px-6 py-20 relative z-10">
         <div className="max-w-4xl mx-auto text-center">
