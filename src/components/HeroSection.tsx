@@ -17,28 +17,40 @@ const HeroSection = () => {
 
           {/* Main heading */}
           <h1 className="text-6xl md:text-8xl lg:text-9xl font-display leading-none mb-6 opacity-0 animate-fade-up delay-100">
-            SATYABRAT
-            <span className="block text-gradient">MOHANTY</span>
+            SATYA
+            <span className="block text-gradient">MOTION</span>
           </h1>
 
           {/* Tagline */}
-          <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-12 opacity-0 animate-fade-up delay-200 font-light">
+          <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-8 opacity-0 animate-fade-up delay-200 font-light">
             Transforming raw footage into <span className="text-foreground">cinematic stories</span> that captivate and engage your audience.
           </p>
+
+          {/* Stats */}
+          <div className="flex justify-center gap-12 mb-12 opacity-0 animate-fade-up delay-250">
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-display text-gradient">3+</div>
+              <div className="text-sm text-muted-foreground">Years Experience</div>
+            </div>
+            <div className="text-center">
+              <div className="text-4xl md:text-5xl font-display text-gradient">85+</div>
+              <div className="text-sm text-muted-foreground">Projects Completed</div>
+            </div>
+          </div>
 
           {/* CTA buttons */}
           <div className="flex flex-col sm:flex-row gap-4 justify-center opacity-0 animate-fade-up delay-300">
             <a 
-              href="#contact" 
+              href="#work" 
               className="inline-flex items-center justify-center px-8 py-4 bg-primary text-primary-foreground font-semibold rounded-lg hover:bg-primary/90 transition-all duration-300 glow"
             >
-              Let's Work Together
+              View My Work
             </a>
             <a 
-              href="#services" 
+              href="#contact" 
               className="inline-flex items-center justify-center px-8 py-4 border border-border text-foreground font-semibold rounded-lg hover:bg-secondary transition-all duration-300"
             >
-              View Services
+              Contact Me
             </a>
           </div>
         </div>
