@@ -29,7 +29,7 @@ const ContactSection = () => {
           {/* Section header */}
           <div className="text-center mb-16">
             <h2 className="text-5xl md:text-6xl font-display mb-4">
-              LET'S <span className="text-gradient">CONNECT</span>
+              LET'S <span className="text-gradient">WORK TOGETHER</span>
             </h2>
             <p className="text-muted-foreground text-lg max-w-xl mx-auto">
               Ready to bring your vision to life? Get in touch and let's create something amazing together.
