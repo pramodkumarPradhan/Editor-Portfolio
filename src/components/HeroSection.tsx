@@ -15,7 +15,16 @@ const HeroSection = () => {
             <span className="text-sm text-muted-foreground">Professional Video Editor</span>
           </div>
 
-          {/* Tagline */}
+          {/* Profile Photo */}
+          <div className="mb-8 opacity-0 animate-fade-up delay-100">
+            <div className="w-40 h-40 md:w-52 md:h-52 mx-auto rounded-full overflow-hidden border-4 border-primary/30 glow">
+              <img 
+                src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=400&h=400&fit=crop&crop=face" 
+                alt="Satyabrata Mohanty"
+                className="w-full h-full object-cover"
+              />
+            </div>
+          </div>
 
           {/* Tagline */}
           <p className="text-xl md:text-2xl text-muted-foreground max-w-2xl mx-auto mb-8 opacity-0 animate-fade-up delay-200 font-light">
