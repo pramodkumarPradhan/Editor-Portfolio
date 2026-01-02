@@ -5,7 +5,7 @@ import { Play, X } from "lucide-react";
 
 const demoVideos = [
   {
-    title: "Brand Commercial",
+    title: "Led Light Ad",
     video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767354507/led_light_ads_3_wf9t2c.mp4",
     category: "Advertisement",
   },
@@ -15,28 +15,28 @@ const demoVideos = [
     category: "Documentary",
   },
   {
-    title: "Motion Graphics",
+    title: "Motion Product Ad",
     video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767350812/motion_product_ads_4_rvnbsu.mp4",
     category: "Motion",
   },
   {
-    title: "Social Media Reel",
+    title: "Cinematic Video",
     video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767352174/cinematic_end_of_the_year_8_af3g0q.mov",
     category: "Social Media",
   },
   {
-    title: "Product Showcase",
+    title: "Gym Cinematic Ad",
     video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767354422/gym_ads_6_rnvyf2.mp4",
-    category: "Product",
+    category: "Advertisement",
   },
   {
-    title: "Event Highlight",
+    title: "Cinematic Restaurant Promotion",
     video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767351781/cinematic_store_promotion_video_5_sudc8h.mp4",
     category: "Event",
   },
   {
     title: "Kerala Cinematic",
-    video: "https://drive.google.com/uc?export=download&id=1VlXYvuBEC8Agdv-AN4wQt1W1D72_pQVb",
+    video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767358227/kerala_kwzfzd.mov",
     category: "Travel",
   },
   {

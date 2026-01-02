@@ -37,7 +37,7 @@ const HeroSection = () => {
           <div className="mb-8 opacity-0 animate-fade-up delay-100">
             <div className="w-40 h-40 md:w-52 md:h-52 mx-auto rounded-full overflow-hidden border-4 border-primary/30 glow">
               <img 
-                src="../public/ProfilePic.JPG" 
+                src="https://res.cloudinary.com/dlcjyh6fb/image/upload/v1767358498/ProfilePic_osh7dc.jpg" 
                 alt="Satyabrata Mohanty"
                 className="w-full h-full object-cover"
               />
