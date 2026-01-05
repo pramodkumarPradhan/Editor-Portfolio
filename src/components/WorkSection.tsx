@@ -5,14 +5,24 @@ import { Play, X } from "lucide-react";
 
 const demoVideos = [
   {
-    title: "Led Light Ad",
-    video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767354507/led_light_ads_3_wf9t2c.mp4",
-    category: "Advertisement",
+    title: "Wellness Insights",
+    video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767591654/dpctor_kugbwy.mov",
+    category: "Client",
+  },
+   {
+    title: "Motivational shorts",
+    video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767594410/document_lzbxyb.mov",
+    category: "Motivation",
   },
   {
     title: "Documentary Edit",
     video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767354443/documentary_edit_1_jwzigt.mp4",
     category: "Documentary",
+  },
+  {
+    title: "Led Light Ad",
+    video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767354507/led_light_ads_3_wf9t2c.mp4",
+    category: "Advertisement",
   },
   {
     title: "Motion Product Ad",
@@ -38,12 +48,7 @@ const demoVideos = [
     title: "Kerala Cinematic",
     video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767358227/kerala_kwzfzd.mov",
     category: "Travel",
-  },
-  {
-    title: "Man Matters Ad",
-    video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767354583/man_matters_2_gcublz.mp4",
-    category: "Branding",
-  },
+  }
 ];
 
 const WorkSection = () => {
@@ -106,30 +111,38 @@ const WorkSection = () => {
         </div>
       </div>
 
-      {/* POPUP MODAL */}
+      {/* POPUP MODAL - iPhone Mobile Optimized */}
       {activeVideo && (
         <div
-          className="fixed inset-0 z-50 flex items-center justify-center bg-black/70"
+          className="fixed inset-0 z-50 flex items-center justify-center bg-black/90 p-2 sm:p-4"
           onClick={() => setActiveVideo(null)}
         >
           <div
-            className="relative bg-black rounded-xl w-[90%] max-w-xl p-4"
+            className="relative w-full h-full max-w-sm sm:max-w-md md:max-w-4xl flex items-center justify-center"
             onClick={(e) => e.stopPropagation()}
           >
+            {/* Close Button */}
             <button
-              className="absolute top-3 right-3 z-10 rounded-full bg-black/80 p-2 text-white hover:text-primary"
+              className="absolute top-2 right-2 sm:top-4 sm:right-4 z-10 rounded-full bg-black/80 backdrop-blur-sm p-2 sm:p-3 text-white hover:text-primary transition-colors shadow-lg"
               onClick={() => setActiveVideo(null)}
               aria-label="Close video"
             >
-              <X size={22} />
+              <X size={20} className="sm:w-6 sm:h-6" />
             </button>
 
-            <video
-              src={activeVideo}
-              autoPlay
-              controls
-              className="w-full rounded-lg"
-            />
+            {/* Video - iPhone frame style */}
+            <div className="relative w-full max-w-[280px] sm:max-w-sm md:max-w-2xl bg-black rounded-3xl overflow-hidden shadow-2xl">
+              <video
+                src={activeVideo}
+                autoPlay
+                controls
+                playsInline
+                className="w-full h-auto max-h-[75vh] sm:max-h-[80vh] object-contain"
+                style={{
+                  aspectRatio: 'auto'
+                }}
+              />
+            </div>
           </div>
         </div>
       )}
