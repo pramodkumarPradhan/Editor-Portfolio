@@ -9,9 +9,12 @@ import Footer from "@/components/Footer";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-background">
+    <div className="min-h-[100dvh] bg-background flex flex-col">
+      {/* Navbar */}
       <Navbar />
-      <main>
+
+      {/* Main Content */}
+      <main className="flex-1 overflow-x-hidden">
         <HeroSection />
         <WorkSection />
         <ServicesSection />
@@ -19,6 +22,8 @@ const Index = () => {
         <TestimonialsSection />
         <ContactSection />
       </main>
+
+      {/* Footer */}
       <Footer />
     </div>
   );
