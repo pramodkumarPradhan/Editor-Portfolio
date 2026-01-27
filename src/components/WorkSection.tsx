@@ -57,6 +57,18 @@ const demoVideos = [
     video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767358227/kerala_kwzfzd.mov",
     poster: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1767358227/kerala_kwzfzd.jpg",
     category: "Travel",
+  },
+  {
+    title: "Motion Graphic Showreel",
+    video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1769537059/Motion_Graphic_Showreel_orxl6y.mp4",
+    poster: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1769537059/Motion_Graphic_Showreel_orxl6y.jpg",
+    category: "Motion Graphic",
+  },
+  {
+    title: "Video editing Showreel",
+    video: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1769536328/Video_editing_Showreel_vjss2g.mov",
+    poster: "https://res.cloudinary.com/dlcjyh6fb/video/upload/v1769536328/Video_editing_Showreel_vjss2g.jpg",
+    category: "Showreel",
   }
 ];
 
