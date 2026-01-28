@@ -66,4 +66,39 @@ This project can be deployed to various hosting platforms:
 
 ## Can I connect a custom domain?
 
-Yes! Most hosting platforms allow you to connect custom domains. Check your hosting provider's documentation for specific instructions on domain configuration.
+Yes! Most hosting platforms allow you to connect custom domains. Check your hosting provider's documentation for specific instructions on domain configuration.# Satyabrata's Editing Portfolio
+
+## Project Overview
+
+A professional editing portfolio showcasing creative video and content editing work, designed to highlight real-world editing skills, visual storytelling, and modern UI presentation.
+
+## Developer & Ownership
+
+**Primary Developer & Maintainer**: Pramod Pradhan  
+
+This project is independently developed and maintained by **Pramod Pradhan**.  
+Any automated commits or tool-generated changes visible in the repository history do not represent additional human contributors.
+
+---
+
+## How to Edit This Project
+
+You can edit and customize this project using any of the following methods.
+
+### Use Your Preferred IDE (Recommended)
+
+Make sure you have **Node.js** and **npm** installed.  
+You can install them using nvm: https://github.com/nvm-sh/nvm
+
+```sh
+# Step 1: Clone the repository
+git clone <YOUR_GIT_URL>
+
+# Step 2: Move into the project directory
+cd <YOUR_PROJECT_NAME>
+
+# Step 3: Install dependencies
+npm install
+
+# Step 4: Run the development server
+npm run dev
